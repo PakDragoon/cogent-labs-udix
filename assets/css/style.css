@@ -1,0 +1,257 @@
+* {
+  font-family: "Montserrat";
+  font-style: normal;
+}
+.hero-section {
+  padding: 5rem 0;
+}
+.services-section {
+  margin-bottom: 5rem;
+}
+.hero-sub-section-one,
+.hero-sub-section-two,
+.hero-sub-section-three,
+.services-sub-section-one,
+.services-sub-section-two {
+  margin-bottom: 3rem;
+}
+.text-one {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  text-shadow: 0px 2px 0px rgba(34, 34, 34, 0.1);
+}
+.text-two {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #222222;
+}
+.text-three {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 130%;
+  text-align: center;
+  color: #222222;
+}
+.text-four {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(34, 34, 34, 0.7);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding: 0 2rem;
+}
+.subs-btn {
+  padding: 0.75rem 2rem;
+  background-color: #381ddb;
+}
+.subs-section {
+  column-gap: 1rem;
+  padding: 0 2rem;
+}
+.vector {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.service-card-active {
+  border: 2px solid #381ddb;
+  background-color: #381ddb;
+  padding: 2rem;
+}
+.service-card-img-active {
+  width: 70px;
+  height: 63px;
+  margin-bottom: 2rem;
+}
+.service-card-head-active {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.service-card-text-active {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.service-card-icon-active {
+  color: #ffffff;
+}
+.service-card {
+  border: 2px solid #381ddb;
+  padding: 2rem;
+}
+.service-card-img {
+  width: 70px;
+  height: 63px;
+  margin-bottom: 2rem;
+}
+.service-card-head {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+  color: #222222;
+  margin-bottom: 2rem;
+}
+.service-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  margin-bottom: 2rem;
+}
+.service-card-icon {
+  color: #381ddb;
+}
+.services-sub-section-three {
+  column-gap: 2rem;
+}
+.full-bg {
+  background-image: url("../img/Rectangle1706.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+  margin-bottom: 7rem;
+}
+.full-bg-head {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.full-bg-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.creative {
+  margin-bottom: 3rem;
+}
+.creative-head {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #222222;
+  margin-bottom: 1.5rem;
+}
+.creative-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  opacity: 0.7;
+}
+.solution-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #381ddb;
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  align-self: flex-start;
+}
+.footer-logo {
+  width: 70px;
+  height: 35px;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #222222;
+  opacity: 0.3;
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  padding-right: 5rem;
+}
+.footer-section {
+  background: rgba(34, 34, 34, 0.03);
+  padding: 3.5rem 5rem;
+}
+.footer-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #222222;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+}
+.footer-btn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #381ddb;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+}
+.signin-btn {
+  margin-right: 1.5rem;
+}
+.signup-btn {
+  border: 2px solid #381ddb;
+  padding: 0.5rem 1rem;
+}
+.social-icons {
+  font-size: 1.25rem;
+}
+.footer-top {
+  margin-bottom: 2rem;
+}
+.believe-section {
+  margin-bottom: 10rem;
+}
+.believe-sub-right {
+  padding: 0 2rem;
+}
+.navbar {
+  background: transparent !important;
+  padding: 3rem;
+}
+.navbar-nav,
+.nav-item {
+  margin-left: 3rem;
+}
+.nav-item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #222222;
+}
+.home-menu {
+  color: #381ddb !important;
+}
+@media screen and (max-width: 500px) {
+  .footer-section {
+    padding: 1rem;
+  }
+}
