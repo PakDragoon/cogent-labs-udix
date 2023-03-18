@@ -170,6 +170,7 @@
   align-self: center;
   flex-grow: 0;
   align-self: flex-start;
+  text-decoration: none;
 }
 .footer-logo {
   width: 70px;
@@ -217,11 +218,13 @@
   margin-right: 1.5rem;
 }
 .signup-btn {
-  border: 2px solid #381ddb;
+  border: 2px solid #381ddb !important;
+  color: #381ddb !important;
   padding: 0.5rem 1rem;
 }
 .social-icons {
   font-size: 1.25rem;
+  color: #222222;
 }
 .footer-top {
   margin-bottom: 2rem;
@@ -250,8 +253,91 @@
 .home-menu {
   color: #381ddb !important;
 }
+.fa-facebook-f:hover {
+  color: #4267b2;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+}
+.fa-linkedin-in:hover {
+  color: #0072b1;
+}
+.fa-google-plus-g:hover {
+  color: #db4a39;
+}
+.fa-skype:hover {
+  color: #00aff0;
+}
 @media screen and (max-width: 500px) {
   .footer-section {
     padding: 1rem;
+  }
+  .navbar {
+    padding: 1rem;
+  }
+  .navbar-nav,
+  .nav-item {
+    margin-left: 0;
+  }
+  .text-one {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .text-two {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .subs-btn {
+    width: fit-content;
+    align-self: center;
+  }
+  .subs-section {
+    flex-direction: column;
+  }
+  .email-field {
+    margin-bottom: 1rem;
+  }
+  .text-three {
+    font-size: 28px;
+    line-height: 130%;
+  }
+  .text-four {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .creative-head {
+    font-size: 28px;
+    line-height: 130%;
+  }
+  .creative-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .full-bg-head {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .full-bg-text {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 2rem;
+  }
+  .footer-sec-one {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .footer-sec-two {
+    margin-bottom: 1rem;
+  }
+  .footer-sec-three {
+    display: flex;
+    justify-content: center !important;
+    margin-bottom: 1rem;
+  }
+  .footer-text {
+    padding-right: 0;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 }
